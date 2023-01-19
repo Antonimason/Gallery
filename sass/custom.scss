@@ -1,0 +1,81 @@
+$secondary: rgba(#252525, 0.2);
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$success: #79cf7c;
+
+#title-main{
+    animation-duration: 5s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    #line1 {
+      font-size: 80px;
+    }
+  
+    #line2{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    #btn-main {
+        margin: 30px auto;
+    }
+    .mb-lg-0 {
+      margin-bottom: 0 !important;
+    }
+    .card-img {
+      padding: 20px 70px;
+      max-width: 600px;
+    }
+  }
+  #joder, #joder2{
+    z-index:1; 
+    position: fixed;
+    width: 95%;
+    height: 97vh;
+  }
+  #picture1, #picture2{
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 992px){
+    #line1 {
+        font-size: 30px;
+        align-self: center;
+    }
+    
+      #line2{
+        font-size: 20px;
+        text-align: center;
+    }
+    #btn-main {
+        font-size: 10px;
+        padding: -3px;
+        margin: 20px auto;
+    }
+    .imagen {
+      width: 100%;
+      object-fit: contain;
+    }
+  
+    .picture1, .picture2{
+      object-fit: cover;
+    }
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
