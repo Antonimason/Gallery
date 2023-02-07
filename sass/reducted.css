@@ -767,3 +767,7 @@ button:not(:disabled),
   width: 100%;
   height: 97vh;
 }
+
+#first-wp img:hover, #second-wp img:hover {
+  cursor: pointer;
+}
